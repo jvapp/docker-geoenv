@@ -9,3 +9,5 @@ RUN conda install -y gdal
 RUN pip install --upgrade pip
 
 RUN pip install -e git+https://github.com/christiemj09/config.git#egg=config
+
+CMD ["/bin/bash"]
